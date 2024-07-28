@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 // this affects the setting for the streamtheme component in both meetingroom and meetingsetup 
 import "@stream-io/video-react-sdk/dist/css/styles.css"; 
 const inter = Inter({ subsets: ["latin"] });
-
+import 'react-datepicker/dist/react-datepicker.css';
 export const metadata: Metadata = {
   title: "ConnectPro",
   description: "Video Calling App",
